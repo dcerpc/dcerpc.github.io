@@ -1,3 +1,4 @@
+baseurl: ""
 defaults:
   -
     scope:
@@ -12,3 +13,5 @@ exclude:
 gems:
   - jekyll-redirect-from
 permalink: pretty
+title: "DCE/RPC"
+url: "http://www.dcerpc.org"
