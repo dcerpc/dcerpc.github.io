@@ -2,6 +2,7 @@
 title: DCE/RPC
 ---
 
+{:.lead}
 DCE/RPC is an implementation of the Remote Procedure Call technology
 developed by the Open Group as part of the Distributed Computing
 Environment. DCE/RPC is most commonly used to interact with Windows
