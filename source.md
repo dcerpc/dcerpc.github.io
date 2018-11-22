@@ -12,7 +12,10 @@ The DCE/RPC source code is available from [GitHub](https://github.com/dcerpc/dce
 To build the project on macOS, use the Xcode project. This will
 build the DCERPC framework and the `dceidl` IDL compiler, which is
 all that is necessary to start writing DCE/RPC applications.
-
+   
+    ~/dcerpc.git $ cd dcerpc
+    ~/dcerpc.git $ ./bootstrap
+    ~/dcerpc.git $ cd ..
     ~/dcerpc.git $ xcodebuild -configuration Debug -target dceidl
     ~/dcerpc.git $ sudo xcodebuild -configuration Debug -target dceidl install
     ~/dcerpc.git $ xcodebuild -configuration Debug -target DCERPC
