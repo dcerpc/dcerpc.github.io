@@ -21,7 +21,7 @@ To build on Linux or other UNIX-like systems, use the autotools
 build system.
 
     ~/dcerpc.git $ cd dcerpc
-    ~/dcerpc.git $ ./buildconf
+    ~/dcerpc.git $ autoreconf -fi
     ~/dcerpc.git $ ./configure && make
     ~/dcerpc.git $ sudo make install
 
