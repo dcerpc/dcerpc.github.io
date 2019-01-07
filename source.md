@@ -14,7 +14,7 @@ build the DCERPC framework and the `dceidl` IDL compiler, which is
 all that is necessary to start writing DCE/RPC applications.
 
     ~/dcerpc.git $ xcodebuild -configuration Debug -target dceidl
-    ~/dcerpc.git $ sudo xcodebuild -configuration Debug -target dceidl install
+    ~/dcerpc.git $ sudo xcodebuild -configuration Debug -target dceidl install DSTROOT=/
     ~/dcerpc.git $ xcodebuild -configuration Debug -target DCERPC
 
 To build on Linux or other UNIX-like systems, use the autotools
